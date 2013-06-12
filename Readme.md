@@ -11,7 +11,7 @@ The code is licensed under Creative Commons Non-commercial license. You can use 
 Usage
 --------------
 
-_This code works only with Universal Analytics GA profiles._ If you use a classic Analytics profile, you'll have to create a new one.
+__This code works only with Universal Analytics GA profiles.__ If you use a classic Analytics profile, you'll have to create a new one.
 
 The following code examples assume that files are stored in /ganc folder in the root of your web server.
 
@@ -55,4 +55,14 @@ All that is needed to use this library is including the following code in your H
 </body>
 ```
 
+See it in action
+------------------
+
+See the ganc code in action on http://humane-tehnologije.si.
+
+
+Disclaimer
+---------------
+
+The code is provided as it is, without warranties. It's your fault if anything goes wrong :)
 
