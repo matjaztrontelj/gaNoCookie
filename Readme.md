@@ -11,7 +11,7 @@ The code is licensed under Creative Commons Non-commercial license. You can use 
 Usage
 --------------
 
-*This code works only with Universal Analytics GA profiles.* If you use a classic Analytics profile, you'll have to create a new one.
+_This code works only with Universal Analytics GA profiles._ If you use a classic Analytics profile, you'll have to create a new one.
 
 The following code examples assume that files are stored in /ganc folder in the root of your web server.
 
