@@ -11,11 +11,11 @@ The code is licensed under Creative Commons Non-commercial license. You can use 
 Usage
 --------------
 
-This code works only with Universal Analytics GA profiles. If you use a classic Analytics profile, you'll have to create a new one.
+*This code works only with Universal Analytics GA profiles.* If you use a classic Analytics profile, you'll have to create a new one.
 
 The following code examples assume that files are stored in /ganc folder in the root of your web server.
 
-Client usage is compatible with Google Analytics analytics.js usage. Page views and events are supported at the moment.
+Client usage is compatible with Google Analytics analytics.js usage. Sending page views and events is supported at the moment.
 
 All that is needed to use this library is including the following code in your HTML:
 
