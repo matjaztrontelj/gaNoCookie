@@ -1,4 +1,4 @@
-Use Google Analytics without cookies
+Use client-side Google Analytics without cookies
 ============================
 
 Some EU countries implemented privacy laws that require user's opt-in before setting any cookies. Collecting usage statistics only from those users who opt-in into cookies is seriously flawed. This library provides an effective workaround, using Google Analytics Measurment Protocol to feed data to Google Analytics wihout using cookies.
@@ -60,10 +60,4 @@ See it in action
 ------------------
 
 See the ganc code in action on http://humane-tehnologije.si.
-
-
-Disclaimer
----------------
-
-The code is provided as it is, without warranties. It's your fault if anything goes wrong :)
 
