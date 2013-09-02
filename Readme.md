@@ -6,7 +6,7 @@ Some EU countries implemented privacy laws that require user's opt-in before set
 License
 ---------------
 
-The code is licensed under Creative Commons Non-commercial license. You can use the code for free on your personal and non-profit projects. Commercial use requires a small licensing fee. Visit http://humane-tehnologije.si/google-analytics-brez-piskotkov for more.
+The code is licensed under Creative Commons Non-commercial license. You can use the code for free on your personal and non-profit projects. Commercial use requires a small licensing fee. Visit http://www.humane-tehnologije.si/client-side-google-analytics-without-using-cookies for more.
 
 Usage
 --------------
