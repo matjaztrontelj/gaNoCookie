@@ -5,7 +5,7 @@ Some EU countries implemented privacy laws that require user's opt-in before set
 
 Legal notice
 ---------------
-This solution implements client-side Google Analytics without storing data on user's device (cookies, cache, local storage, Etags...). The solution still uses the data from client devices to facilitate user tracking. Please check cookie laws of your individual country to see if you can legaly use this approach without user opt-in. 
+This solution implements client-side Google Analytics without storing data on user's device (cookies, cache, local storage, Etags...). The solution still uses the data from client devices to facilitate user tracking. Please check cookie laws of your individual country to see if you can legally use this approach without user opt-in. 
 
 License
 ---------------
