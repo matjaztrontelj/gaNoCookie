@@ -22,7 +22,7 @@ All that is needed to use this library is including the following code in your H
 ```<body>
 ...
 
-<!-- Include the ganc code just before the closing body tag -->
+<!-- Include the ganc code just before the closing body tag. Remove comments and optional stuff in production code. -->
 <script>
   //path to the script that will generate and return the user id
   gancGetUidUrl = '/ganc/ga_no_cookie_uid.php';
@@ -34,13 +34,6 @@ All that is needed to use this library is including the following code in your H
   })(window,document,'script','/ganc/ga_no_cookie.php?v=3','ganc');
   //Only edit the url in the above line. Instead of including JS file via PHP script, you could also include ga_no_cookie_min.js directly and set up caching with webserver instructions. Use ?v=1234... to force cache update if you change the JS file or upgrade to a new version of this library.
 
-  //id of dom element that will hold opt-in and opt-out links (optional)
-  ganc_status_eid = "ganc_status";
-  //text for the link if ganc is on
-  ganc_status_on = "Turn off anonymous usage statistics collection.";
-  //text for the link if ganc is off
-  ganc_status_off = "Turn on anonymous usage statistics collection";
-
   //Setup tracker id and start sending hits. Enter your tracking id.
   ganc('create', 'UA-123456-1', '');
   //Send page view
@@ -49,6 +42,14 @@ All that is needed to use this library is including the following code in your H
   //Optionally, send events. Category and Action are required.
   ganc('send', 'event', 'EVENT_CATEGORY', 'EVENT_ACTION', 'EVENT_LABEL');
   
+  //Optional support for opt-out of data collection
+  //id of dom element that will hold opt-in and opt-out links (optional)
+  ganc_status_eid = "ganc_status";
+  //text for the link if ganc is on
+  ganc_status_on = "Turn off anonymous usage statistics collection.";
+  //text for the link if ganc is off
+  ganc_status_off = "Turn on anonymous usage statistics collection";
+
   //That's it! Check GA Real time view to see if it is working. Note: real time mode sometimes shows doubled events and returning visitors appear only after a day or so of usage.
 </script>
 
