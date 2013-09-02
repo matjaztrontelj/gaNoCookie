@@ -3,6 +3,10 @@ Use client-side Google Analytics without cookies
 
 Some EU countries implemented privacy laws that require user's opt-in before setting any cookies. Collecting usage statistics only from those users who opt-in into cookies is seriously flawed. This library provides an effective workaround, using Google Analytics Measurment Protocol to feed data to Google Analytics wihout using cookies.
 
+Legal notice
+---------------
+This solution implements client-side Google Analytics without storing data on user's device (cookies, cache, local storage, Etags...). The solution still uses the data from client devices to facilitate user tracking. Please check cookie laws of your individual country to see if you can legaly use this approach without user opt-in. 
+
 License
 ---------------
 
