@@ -88,6 +88,8 @@ var gaNoCookieSendHit = function(tid, t, data) {
     var url = 'http://www.google-analytics.com/collect?payload_data&v=1&aip=1&z=' + z + '&tid=' + tid + '&cid=' + uid + '&t=' + t + '&sr=' + gaNoCookieGetScreenSize() + '&vp=' + gaNoCookieGetViewportSize() + '&ul=' + gaNoCookieGetLanguage() + '&' + data;	
 	var img = document.createElement('img');
 	img.setAttribute('src', url);
+	img.style.position = 'absolute';
+	img.style.height = '0px';
 	document.body.appendChild(img);
 }
 
